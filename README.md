@@ -1,14 +1,14 @@
 # news-category-rnn
-# 📰 News Category Classification using RNN
+# 📰 News Category Classification using LSTM
 
-This project classifies news headlines into one of 10 categories using a Recurrent Neural Network (RNN). It demonstrates how to clean text data, tokenize it, train an RNN model, and build a web app using Streamlit.
+This project classifies news headlines into one of 10 categories using a Long short term memory (LSTM). It demonstrates how to clean text data, tokenize it, train an LSTM model, and build a web app using Streamlit.
 
 ---
 
 ## 🚀 Project Structure
 
 - `explore_data.ipynb` – Explore and visualize the dataset.
-- `train_model.ipynb` – Text cleaning, tokenization, and training an RNN model.
+- `train_model.ipynb` – Text cleaning, tokenization, and training an LSTM model.
 - `evaluate_model.ipynb` – Evaluate model accuracy and predictions.
 - `streamlit_app.py` – Streamlit app for predicting news categories.
 
@@ -16,7 +16,7 @@ This project classifies news headlines into one of 10 categories using a Recurre
 
 ## 🧠 Model Information
 
-- **Architecture**: SimpleRNN with Keras Sequential API
+- **Architecture**: LSTM with Keras Sequential API
 - **Embedding Layer**: 128-dimensional word vectors
 - **Tokenizer**: Keras Tokenizer with `<OOV>` token
 - **Output Classes**: 10 News Categories
