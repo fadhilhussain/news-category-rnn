@@ -1,4 +1,4 @@
-# news-category-rnn
+
 # 📰 News Category Classification using LSTM
 
 This project classifies news headlines into one of 10 categories using a Long short term memory (LSTM). It demonstrates how to clean text data, tokenize it, train an LSTM model, and build a web app using Streamlit.
